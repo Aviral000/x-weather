@@ -40,20 +40,20 @@ export default function App() {
           ) : data.length === 0 ? (
             <p>No data available</p>
           ) : (
-            <div className='weather-card'>
-              <div className='weather-cards'>
+            <div className='weather-cards'>
+              <div className='weather-card'>
                 <h5>Temperature</h5>
                 <p>{data.current.temp_c}&deg;C</p>
               </div>
-              <div className='weather-cards'>
+              <div className='weather-card'>
                 <h5>Humidity</h5>
                 <p>{data.current.humidity} %</p>
               </div>
-              <div className='weather-cards'>
+              <div className='weather-card'>
                 <h5>Condition</h5>
                 <p>{data.current.condition.text}</p>
               </div>
-              <div className='weather-cards'>
+              <div className='weather-card'>
                 <h5>Wind Speed</h5>
                 <p>{data.current.wind_kph} kph</p>
               </div>
