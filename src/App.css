@@ -34,7 +34,7 @@ body {
     gap: 1rem;
 }
 
-.c2 .card {
+.c2 .weather-card {
     width: 20vw;
     height: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
