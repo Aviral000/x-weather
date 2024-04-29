@@ -26,7 +26,7 @@ body {
     background-color: aquamarine;
 }
 
-.c2 {
+.weather-card {
     margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +34,7 @@ body {
     gap: 1rem;
 }
 
-.c2 .weather-cards {
+.weather-card .weather-cards {
     width: 20vw;
     height: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
