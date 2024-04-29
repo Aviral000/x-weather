@@ -19,7 +19,9 @@ export default function App() {
       alert("Failed to fetch weather data");
       setData([]);
     } finally {
-      setIsLoading(false);
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 100);
     }
   }
 
