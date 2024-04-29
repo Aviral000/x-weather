@@ -36,7 +36,7 @@ body {
 
 .c2 .card {
     width: 20vw;
-    height: 80px;
+    height: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     box-shadow: rgb(116, 115, 115);
@@ -44,4 +44,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.c2 p {
+    margin: 2px;
+}
+
+.c2 h5 {
+    margin: 2px;
 }

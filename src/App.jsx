@@ -38,19 +38,19 @@ const toggle = () => {
         {show && 
             <div className='c2'>
                 <div className='card'>
-                    Temperature
+                    <h5>Temperature</h5>
                     <p>{data.current.temp_c}&deg;C</p>
                 </div>
                 <div className='card'>
-                    Humidity
+                    <h5>Humidity</h5>
                     <p>{data.current.humidity} %</p>
                 </div>
                 <div className='card'>
-                    Condition
+                    <h5>Condition</h5>
                     <p>{data.current.condition.text}</p>
                 </div>
                 <div className='card'>
-                    Wind Speed
+                    <h5>Wind Speed</h5>
                     <p>{data.current.wind_kph} kph</p>
                 </div>
             </div>
