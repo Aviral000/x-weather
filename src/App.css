@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(167, 244, 244);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c1 input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.c1 button {
+    width: 5rem;
+    height: 3rem;
+    background-color: rgb(35, 181, 35);
+    color: white;
+}
+
+.c1 button :hover {
+    background-color: aquamarine;
+}
+
+.c2 {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.c2 .card {
+    width: 20vw;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    box-shadow: rgb(116, 115, 115);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
